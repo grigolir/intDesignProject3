@@ -1,3 +1,83 @@
 @charset "UTF-8";
 /* CSS Document */
-body {	margin: 0; }
+body {
+    margin: 0; 
+    background-color: #FFE0C7;
+}
+
+/** RECYCLED CLASSES */
+
+
+
+/** HEADER SECTION */
+
+#header { /** for centering logo */
+    width: 100%;
+    height: 100px;
+    background-color: rgb(194, 194, 209);
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+    #header-logo { /** here is shown in W/H/BKDG-SIZE how to reuse same image, but different sizes */
+        background-image: url(../images/logo-empty.png);
+        width: 94px;
+        height: 87px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-left: 80px;
+    }
+
+    #header-text-container { /** for centering text */
+        display: flex;
+        gap: 80px;
+        justify-items: center;
+        align-items: center;
+        margin: 0 80px 0 160px;
+    }
+
+        #header-text {
+            color: #380000;
+            font-family: Aquavit;
+            font-size: 26px;
+            font-weight: 400;
+        }
+
+        #header-icons {
+            background-image: url(../images/header-icons.png);
+            width: 114.304px;
+            height: 27.955px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            margin-left: 106px;
+        }
+
+
+
+/** MAIN SECTION */
+
+#main {
+
+}
+
+    #main-wine-spill {
+        background-image: url(../images/main-wine-spill.png);
+        width: 1440px;
+        height: 1618px;
+        margin: 0 auto;
+        z-index: 0;
+    }
+
+    #main-logo { /** here is shown in W/H/BKDG-SIZE how to reuse same image, but different sizes */
+            background-image: url(../images/logo-empty.png);
+            width: 624px;
+            height: 578px;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+            margin-left: 120px;
+            margin-top: 50px;
+            z-index: 1;
+        } 
