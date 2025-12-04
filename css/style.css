@@ -7,8 +7,6 @@ body {
 
 /** RECYCLED CLASSES */
 
-
-
 /** HEADER SECTION */
 
 #header { /** for centering logo */
@@ -20,7 +18,7 @@ body {
     align-items: center;
 }
 
-    #header-logo { /** here is shown in W/H/BKDG-SIZE how to reuse same image, but different sizes */
+    .header-logo { /** here is shown in W/H/BKDG-SIZE how to reuse same image, but different sizes */
         background-image: url(../images/logo-empty.png);
         width: 94px;
         height: 87px;
@@ -126,3 +124,67 @@ body {
         font-weight: 500;
         margin-top: -20px;
     }
+
+
+/** SHOP NOW SECTION */
+
+#shopNow {
+   
+    clear: both;
+    height: 1206px;
+}
+
+    #shopNow-bkgd {
+        background-image: url(../images/shopNow-bkgd.png);
+        width: 1440px;
+        height: 965px;
+        margin: 0 auto;
+        position: absolute;
+        z-index: 0;
+    }
+
+    #shopNow-wine-spill {
+        background-image: url(../images/shopNow-wine-spill.png);
+        width: 1777px;
+        height: 1206px;
+        position: absolute;
+        z-index: 1;
+        margin-top: -100px;
+    }
+
+    #shopNow-buttons {
+        padding-top: 200px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 100px;
+    }
+
+    #shopNow-button1 {
+        background-image: url(../images/shopNow-button1.png);
+        width: 292px;
+        height: 96px;
+    }
+
+    #shopNow-button2 {
+        background-image: url(../images/shopNow-button2.png);
+        width: 292px;
+        height: 96px;
+        /*position: absolute;
+        z-index: 2;*/
+    }
+
+    #shopNow-button3 {
+        background-image: url(../images/shopNow-button3.png);
+        width: 292px;
+        height: 96px;
+        /*position: absolute;
+        z-index: 2;*/
+    }
+
+/** FOOTER SECTION */
+
+footer {
+
+    background-color: black;
+}
