@@ -188,3 +188,38 @@ footer {
 
     background-color: black;
 }
+
+
+
+
+
+/** 
+
+MYSHOP HTML FILE CLASSES
+
+*/
+
+#title {
+    width: 100%;
+    height: 260px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    #title-text {
+        color: #380000;
+        font-family: Aquavit;
+        font-size: 128px;
+        font-weight: 600;
+    }
+
+    #title-green-assets {
+        position: absolute;
+        width: 1400.276px;
+        height: 208.404px;
+        background-image: url(../images-shop/title-green-assets.png);
+        margin-top: 100px;
+    }
+
