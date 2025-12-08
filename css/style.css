@@ -63,6 +63,13 @@ body {
     position: relative;
 }
 
+   #main-green-assets {
+        background-image: url(../images/main-green-assets.png);
+        width: 1071.193px;
+        height: 865.875px;
+        background-repeat: no-repeat;
+    }
+
     #main-wine-spill {
         background-image: url(../images/main-wine-spill.png);
         width: 1440px;
@@ -100,7 +107,7 @@ body {
 /** ABOUT US SECTION */
 
 #aboutUs {
-    margin-top: -200px; /* ummmm */
+    margin-top: -200px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -114,15 +121,19 @@ body {
         font-weight: 600;
     }
 
-    #aboutUs-body {
-        width: 552px;
-        height: 800px;
-        align-self: center;
-        text-align: center;
-        font-family: Aquavit;
-        font-size: 20px;
-        font-weight: 500;
-        margin-top: -20px;
+    #aboutUs-body { /* why isn't this body paragraph aligned, just like the aboutUs-header? */
+    width: 552px;    
+    margin: -20px auto 0 auto; 
+    text-align: center;
+    font-family: Aquavit;
+    font-size: 20px;
+    font-weight: 500;
+    }
+
+    #aboutUs-green-assets {
+        background-image: url(../images/aboutUs-green-assets.png);
+        width: 100%;
+        height: 1075px;
     }
 
 
