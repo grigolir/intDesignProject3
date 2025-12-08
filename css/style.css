@@ -247,6 +247,14 @@ MYSHOP HTML FILE CLASSES
         }
 
 
+
+#main-section-container {
+    display: flex;            
+    align-items: flex-start;  
+    width: 100%;
+}
+
+
 /** LEFT-COLUMN SECTION */
 
 #left-column {
@@ -255,8 +263,7 @@ MYSHOP HTML FILE CLASSES
     padding-left: 40px;
     margin-top: 100px;
     position: relative;
-    justify-items: center; /* fool around with which one can be shifted left */
-    align-items: left;
+    justify-items: left; /* fool around with which one can be shifted left */
 }
 
     #left-column-1X {
@@ -284,3 +291,44 @@ MYSHOP HTML FILE CLASSES
         font-size: 32px;
         font-weight: 400;
     }
+
+
+/** LISTINGS SECTION */
+
+#listings {
+    margin-left: 50px;
+    margin-top: 80px;
+}
+
+    #listings-container-rows {
+        display: flex;
+        flex-direction: row;
+        gap: 80px;
+    }
+
+        #listings-container-individual-listing {
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+            justify-items: center;
+            }
+
+            #listings-picture {
+                width: 320px;
+                height: 315px;
+            }
+
+            #listings-description-title {
+                color: #380000;
+                font-family: Aquavit;
+                font-size: 40px;
+                font-weight: 500;
+            }
+
+            #listings-description-price {
+                color: #380000;
+                font-family: Aquavit;
+                font-size: 32px;
+                font-weight: 400;
+            }
+
