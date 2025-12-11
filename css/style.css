@@ -404,3 +404,7 @@ VISITUS HTML FILE CLASSES
         width: 100%;
         height: 575px;
     }
+
+#googleMap {
+    text-align: center;
+}
