@@ -33,7 +33,7 @@ body {
 
     #header-text-container { /** for centering text */
         display: flex;
-        gap: 80px;
+        gap: 50px;
         justify-items: center;
         align-items: center;
         margin: 0 80px 0 160px;
@@ -305,6 +305,7 @@ MYSHOP HTML FILE CLASSES
         font-family: Aquavit;
         font-size: 32px;
         font-weight: 400;
+        text-decoration: none;
     }
 
 
@@ -347,6 +348,24 @@ MYSHOP HTML FILE CLASSES
                 font-weight: 400;
             }
 
+
+/** FOOTER CLASSES */
+
+#footer-header-text {
+    color: #380000;
+    text-align: center;
+    font-family: Aquavit;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+#footer-body-text {
+    color: #380000;
+    text-align: center;
+    font-family: Aquavit;
+    font-size: 24px;
+    font-weight: 400;
+}
 
 
 /** 
